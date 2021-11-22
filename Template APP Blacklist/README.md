@@ -40,7 +40,8 @@ The scripts will check the following lists :
   - cdl.anti-spam.org.cn 
   - dnsbl.inps.de 
   - drone.abuse.ch 
-  - httpbl.abuse.ch dul.ru 
+  - httpbl.abuse.ch 
+  - dul.ru 
   - spamrbl.imp.ch 
   - wormrbl.imp.ch 
   - virbl.bit.nl 
