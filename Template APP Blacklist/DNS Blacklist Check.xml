@@ -28,8 +28,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},b.barracudacentral.org]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},b.barracudacentral.org]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -87,8 +87,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},bl.spamcannibal.org]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},bl.spamcannibal.org]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -146,8 +146,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},bl.spamcop.net]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},bl.spamcop.net]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -205,8 +205,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},black.uribl.com]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},black.uribl.com]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -264,8 +264,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},blackholes.mail-abuse.org ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},blackholes.mail-abuse.org ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -323,8 +323,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},bogons.cymru.com]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},bogons.cymru.com]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -382,8 +382,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},cbl.abuseat.org]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},cbl.abuseat.org]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -441,8 +441,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},cbl.anti-spam.org.cn]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},cbl.anti-spam.org.cn]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -500,8 +500,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl-1.uceprotect.net]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dnsbl-1.uceprotect.net]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -559,8 +559,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl-2.uceprotect.net]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dnsbl-2.uceprotect.net]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -618,8 +618,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl-3.uceprotect.net ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dnsbl-3.uceprotect.net ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -677,8 +677,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl.dronebl.org ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dnsbl.dronebl.org ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -736,8 +736,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl.inps.de]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dnsbl.inps.de]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -795,8 +795,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl.sorbs.net]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dnsbl.sorbs.net]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -854,8 +854,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},drone.abuse.ch]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},drone.abuse.ch]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -913,8 +913,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},dsn.rfc-ignorant.org]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dsn.rfc-ignorant.org]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -972,8 +972,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},dul.dnsbl.sorbs.net ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dul.dnsbl.sorbs.net ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1031,8 +1031,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},dyna.spamrats.com ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dyna.spamrats.com ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1090,8 +1090,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},grey.uribl.com multi.surbl.org ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},grey.uribl.com multi.surbl.org ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1149,8 +1149,67 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},http.dnsbl.sorbs.net ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},http.dnsbl.sorbs.net ]</key>
+                    <delay>1d</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Blacklist</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <timeout>3s</timeout>
+                    <url/>
+                    <query_fields/>
+                    <posts/>
+                    <status_codes>200</status_codes>
+                    <follow_redirects>1</follow_redirects>
+                    <post_type>0</post_type>
+                    <http_proxy/>
+                    <headers/>
+                    <retrieve_mode>0</retrieve_mode>
+                    <request_method>0</request_method>
+                    <output_format>0</output_format>
+                    <allow_traps>0</allow_traps>
+                    <ssl_cert_file/>
+                    <ssl_key_file/>
+                    <ssl_key_password/>
+                    <verify_peer>0</verify_peer>
+                    <verify_host>0</verify_host>
+                    <master_item/>
+                </item>
+                                <item>
+                    <name>Blacklist on httpbl.abuse.ch</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},httpbl.abuse.ch]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1204,12 +1263,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Blacklist on httpbl.abuse.ch dul.ru</name>
+                    <name>Blacklist on dul.ru</name>
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},httpbl.abuse.ch dul.ru]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},dul.ru]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1267,8 +1326,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},ips.backscatterer.org ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},ips.backscatterer.org ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1326,8 +1385,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},ix.dnsbl.manitu.net]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},ix.dnsbl.manitu.net]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1385,8 +1444,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},misc.dnsbl.sorbs.net  ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},misc.dnsbl.sorbs.net  ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1444,8 +1503,8 @@
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},netblock.pedantic.org ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},netblock.pedantic.org ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1503,8 +1562,8 @@
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},noptr.spamrats.com]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},noptr.spamrats.com]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1562,8 +1621,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},opm.tornevall.org ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},opm.tornevall.org ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1621,7 +1680,7 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},psbl.surriel.com ]</key>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},psbl.surriel.com ]</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1680,8 +1739,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},query.senderbase.org]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},query.senderbase.org]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1739,8 +1798,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},rbl-plus.mail-abuse.org]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},rbl-plus.mail-abuse.org]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1798,7 +1857,7 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},rbl.interserver.net]</key>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},rbl.interserver.net]</key>
                     <delay>3600</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1857,8 +1916,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},rbl.spamlab.com]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},rbl.spamlab.com]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1916,8 +1975,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},rbl.suresupport.com ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},rbl.suresupport.com ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1975,8 +2034,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},smtp.dnsbl.sorbs.net]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},smtp.dnsbl.sorbs.net]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2034,8 +2093,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},socks.dnsbl.sorbs.net ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},socks.dnsbl.sorbs.net ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2093,8 +2152,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},spam.dnsbl.sorbs.net ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},spam.dnsbl.sorbs.net ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2152,8 +2211,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},spam.spamrats.com]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},spam.spamrats.com]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2211,8 +2270,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},spamguard.leadmon.net]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},spamguard.leadmon.net]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2270,8 +2329,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},spamrbl.imp.ch]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},spamrbl.imp.ch]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2329,8 +2388,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},ubl.unsubscore.com]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},ubl.unsubscore.com]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2388,8 +2447,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},virbl.bit.nl]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},virbl.bit.nl]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2447,8 +2506,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},web.dnsbl.sorbs.net]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},web.dnsbl.sorbs.net]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2506,8 +2565,8 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},wormrbl.imp.ch ]</key>
-                    <delay>3600s</delay>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},wormrbl.imp.ch ]</key>
+                    <delay>1d</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2565,7 +2624,7 @@
                     <type>10</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>check_dnsbl.sh[{$BLACKLISTFQDN},zombie.dnsbl.sorbs.net]</key>
+                    <key>check_dnsbl_subnet.sh[{$SUBNET},zombie.dnsbl.sorbs.net]</key>
                     <delay>30s</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2624,7 +2683,7 @@
             <httptests/>
             <macros>
                 <macro>
-                    <macro>{$BLACKLISTFQDN}</macro>
+                    <macro>{$SUBNET}</macro>
                     <value>fqdn</value>
                 </macro>
             </macros>
@@ -2634,9 +2693,9 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},b.barracudacentral.org].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},b.barracudacentral.org].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},b.barracudacentral.org].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},b.barracudacentral.org].str(OK)}=1</recovery_expression>
             <name>Blacklist on b.barracudacentral.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2650,9 +2709,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},bl.spamcannibal.org].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},bl.spamcannibal.org].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},bl.spamcannibal.org].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},bl.spamcannibal.org].str(OK)}=1</recovery_expression>
             <name>Blacklist on bl.spamcannibal.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2666,9 +2725,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},bl.spamcop.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},bl.spamcop.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},bl.spamcop.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},bl.spamcop.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on bl.spamcop.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2682,9 +2741,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},black.uribl.com].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},black.uribl.com].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},black.uribl.com].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},black.uribl.com].str(OK)}=1</recovery_expression>
             <name>Blacklist on black.uribl.com</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2698,9 +2757,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},blackholes.mail-abuse.org ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},blackholes.mail-abuse.org ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},blackholes.mail-abuse.org ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},blackholes.mail-abuse.org ].str(OK)}=1</recovery_expression>
             <name>Blacklist on blackholes.mail-abuse.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2714,9 +2773,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},bogons.cymru.com].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},bogons.cymru.com].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},bogons.cymru.com].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},bogons.cymru.com].str(OK)}=1</recovery_expression>
             <name>Blacklist on bogons.cymru.com</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2730,9 +2789,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},cbl.abuseat.org].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},cbl.abuseat.org].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},cbl.abuseat.org].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},cbl.abuseat.org].str(OK)}=1</recovery_expression>
             <name>Blacklist on cbl.abuseat.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2746,9 +2805,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},cbl.anti-spam.org.cn].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},cbl.anti-spam.org.cn].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},cbl.anti-spam.org.cn].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},cbl.anti-spam.org.cn].str(OK)}=1</recovery_expression>
             <name>Blacklist on cbl.anti-spam.org.cn</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2762,9 +2821,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl-1.uceprotect.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl-1.uceprotect.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl-1.uceprotect.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl-1.uceprotect.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on dnsbl-1.uceprotect.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2778,9 +2837,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl-2.uceprotect.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl-2.uceprotect.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl-2.uceprotect.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl-2.uceprotect.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on dnsbl-2.uceprotect.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2794,9 +2853,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl-3.uceprotect.net ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl-3.uceprotect.net ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl-3.uceprotect.net ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl-3.uceprotect.net ].str(OK)}=1</recovery_expression>
             <name>Blacklist on dnsbl-3.uceprotect.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2810,9 +2869,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl.dronebl.org ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl.dronebl.org ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl.dronebl.org ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl.dronebl.org ].str(OK)}=1</recovery_expression>
             <name>Blacklist on dnsbl.dronebl.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2826,9 +2885,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl.inps.de].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl.inps.de].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl.inps.de].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl.inps.de].str(OK)}=1</recovery_expression>
             <name>Blacklist on dnsbl.inps.de</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2842,9 +2901,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl.sorbs.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl.sorbs.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dnsbl.sorbs.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dnsbl.sorbs.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on dnsbl.sorbs.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2858,9 +2917,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},drone.abuse.ch].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},drone.abuse.ch].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},drone.abuse.ch].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},drone.abuse.ch].str(OK)}=1</recovery_expression>
             <name>Blacklist on drone.abuse.ch</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2874,9 +2933,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dsn.rfc-ignorant.org].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dsn.rfc-ignorant.org].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dsn.rfc-ignorant.org].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dsn.rfc-ignorant.org].str(OK)}=1</recovery_expression>
             <name>Blacklist on dsn.rfc-ignorant.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2890,9 +2949,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dul.dnsbl.sorbs.net ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dul.dnsbl.sorbs.net ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dul.dnsbl.sorbs.net ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dul.dnsbl.sorbs.net ].str(OK)}=1</recovery_expression>
             <name>Blacklist on dul.dnsbl.sorbs.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2906,9 +2965,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dyna.spamrats.com ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dyna.spamrats.com ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},dyna.spamrats.com ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dyna.spamrats.com ].str(OK)}=1</recovery_expression>
             <name>Blacklist on dyna.spamrats.com</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2922,9 +2981,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},grey.uribl.com multi.surbl.org ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},grey.uribl.com multi.surbl.org ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},grey.uribl.com multi.surbl.org ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},grey.uribl.com multi.surbl.org ].str(OK)}=1</recovery_expression>
             <name>Blacklist on grey.uribl.com multi.surbl.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2938,9 +2997,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},http.dnsbl.sorbs.net ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},http.dnsbl.sorbs.net ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},http.dnsbl.sorbs.net ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},http.dnsbl.sorbs.net ].str(OK)}=1</recovery_expression>
             <name>Blacklist on http.dnsbl.sorbs.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2954,10 +3013,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},httpbl.abuse.ch dul.ru].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},httpbl.abuse.ch].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},httpbl.abuse.ch dul.ru].last()}=0</recovery_expression>
-            <name>Blacklist on httpbl.abuse.ch dul.ru</name>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},httpbl.abuse.ch].str(OK)}=1</recovery_expression>
+            <name>Blacklist on httpbl.abuse.ch</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -2970,9 +3029,25 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},ips.backscatterer.org ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dul.ru].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},ips.backscatterer.org ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},dul.ru].str(OK)}=1</recovery_expression>
+            <name>Blacklist on dul.ru</name>
+            <correlation_mode>0</correlation_mode>
+            <correlation_tag/>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <manual_close>1</manual_close>
+            <dependencies/>
+            <tags/>
+        </trigger>
+        <trigger>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},ips.backscatterer.org ].str(LISTED)}=1</expression>
+            <recovery_mode>1</recovery_mode>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},ips.backscatterer.org ].str(OK)}=1</recovery_expression>
             <name>Blacklist on ips.backscatterer.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -2986,9 +3061,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},ix.dnsbl.manitu.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},ix.dnsbl.manitu.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},ix.dnsbl.manitu.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},ix.dnsbl.manitu.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on ix.dnsbl.manitu.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3002,9 +3077,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},misc.dnsbl.sorbs.net  ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},misc.dnsbl.sorbs.net  ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},misc.dnsbl.sorbs.net  ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},misc.dnsbl.sorbs.net  ].str(OK)}=1</recovery_expression>
             <name>Blacklist on misc.dnsbl.sorbs.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3018,9 +3093,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},netblock.pedantic.org ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},netblock.pedantic.org ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},netblock.pedantic.org ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},netblock.pedantic.org ].str(OK)}=1</recovery_expression>
             <name>Blacklist on netblock.pedantic.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3034,9 +3109,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},noptr.spamrats.com].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},noptr.spamrats.com].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},noptr.spamrats.com].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},noptr.spamrats.com].str(OK)}=1</recovery_expression>
             <name>Blacklist on noptr.spamrats.com</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3050,9 +3125,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},opm.tornevall.org ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},opm.tornevall.org ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},opm.tornevall.org ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},opm.tornevall.org ].str(OK)}=1</recovery_expression>
             <name>Blacklist on opm.tornevall.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3066,9 +3141,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},psbl.surriel.com ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},psbl.surriel.com ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},psbl.surriel.com ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},psbl.surriel.com ].str(OK)}=1</recovery_expression>
             <name>Blacklist on psbl.surriel.com</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3082,9 +3157,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},query.senderbase.org].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},query.senderbase.org].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},query.senderbase.org].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},query.senderbase.org].str(OK)}=1</recovery_expression>
             <name>Blacklist on query.senderbase.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3098,9 +3173,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},rbl-plus.mail-abuse.org].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},rbl-plus.mail-abuse.org].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},rbl-plus.mail-abuse.org].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},rbl-plus.mail-abuse.org].str(OK)}=1</recovery_expression>
             <name>Blacklist on rbl-plus.mail-abuse.org</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3114,9 +3189,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},rbl.interserver.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},rbl.interserver.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},rbl.interserver.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},rbl.interserver.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on rbl.interserver.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3130,9 +3205,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},rbl.spamlab.com].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},rbl.spamlab.com].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},rbl.spamlab.com].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},rbl.spamlab.com].str(OK)}=1</recovery_expression>
             <name>Blacklist on rbl.spamlab.com</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3146,9 +3221,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},rbl.suresupport.com ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},rbl.suresupport.com ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},rbl.suresupport.com ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},rbl.suresupport.com ].str(OK)}=1</recovery_expression>
             <name>Blacklist on rbl.suresupport.com</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3162,9 +3237,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},smtp.dnsbl.sorbs.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},smtp.dnsbl.sorbs.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},smtp.dnsbl.sorbs.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},smtp.dnsbl.sorbs.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on smtp.dnsbl.sorbs.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3178,9 +3253,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},socks.dnsbl.sorbs.net ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},socks.dnsbl.sorbs.net ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},socks.dnsbl.sorbs.net ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},socks.dnsbl.sorbs.net ].str(OK)}=1</recovery_expression>
             <name>Blacklist on socks.dnsbl.sorbs.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3194,9 +3269,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},spam.dnsbl.sorbs.net ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},spam.dnsbl.sorbs.net ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},spam.dnsbl.sorbs.net ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},spam.dnsbl.sorbs.net ].str(OK)}=1</recovery_expression>
             <name>Blacklist on spam.dnsbl.sorbs.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3210,9 +3285,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},spam.spamrats.com].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},spam.spamrats.com].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},spam.spamrats.com].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},spam.spamrats.com].str(OK)}=1</recovery_expression>
             <name>Blacklist on spam.spamrats.com</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3226,9 +3301,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},spamguard.leadmon.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},spamguard.leadmon.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},spamguard.leadmon.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},spamguard.leadmon.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on spamguard.leadmon.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3242,9 +3317,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},spamrbl.imp.ch].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},spamrbl.imp.ch].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},spamrbl.imp.ch].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},spamrbl.imp.ch].str(OK)}=1</recovery_expression>
             <name>Blacklist on spamrbl.imp.ch</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3258,9 +3333,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},ubl.unsubscore.com].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},ubl.unsubscore.com].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},ubl.unsubscore.com].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},ubl.unsubscore.com].str(OK)}=1</recovery_expression>
             <name>Blacklist on ubl.unsubscore.com</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3274,9 +3349,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},virbl.bit.nl].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},virbl.bit.nl].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},virbl.bit.nl].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},virbl.bit.nl].str(OK)}=1</recovery_expression>
             <name>Blacklist on virbl.bit.nl</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3290,9 +3365,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},web.dnsbl.sorbs.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},web.dnsbl.sorbs.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},web.dnsbl.sorbs.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},web.dnsbl.sorbs.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on web.dnsbl.sorbs.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3306,9 +3381,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},wormrbl.imp.ch ].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},wormrbl.imp.ch ].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},wormrbl.imp.ch ].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},wormrbl.imp.ch ].str(OK)}=1</recovery_expression>
             <name>Blacklist on wormrbl.imp.ch</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
@@ -3322,9 +3397,9 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},zombie.dnsbl.sorbs.net].last()}=1</expression>
+            <expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},zombie.dnsbl.sorbs.net].str(LISTED)}=1</expression>
             <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Template APP Blacklist Check:check_dnsbl.sh[{$BLACKLISTFQDN},zombie.dnsbl.sorbs.net].last()}=0</recovery_expression>
+            <recovery_expression>{Template APP Blacklist Check:check_dnsbl_subnet.sh[{$SUBNET},zombie.dnsbl.sorbs.net].str(OK)}=1</recovery_expression>
             <name>Blacklist on zombie.dnsbl.sorbs.net</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
