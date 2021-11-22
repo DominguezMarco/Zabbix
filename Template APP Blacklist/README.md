@@ -71,9 +71,9 @@ Retourne :
 
  - Adjust permissions for zabbix : 
 
-<code>chmod 700 /usr/lib/zabbix/externalscripts/check_dnsbl.sh</code>
+<code>chmod 700 /usr/lib/zabbix/externalscripts/check_dnsbl_show_ip.sh</code>
 
-<code>chown zabbix:zabbix /usr/lib/zabbix/externalscripts/check_dnsbl.sh</code>
+<code>chown zabbix:zabbix /usr/lib/zabbix/externalscripts/check_dnsbl_show_ip.sh</code>
 
  - Install template in Zabbix
 
